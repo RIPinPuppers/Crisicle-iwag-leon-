@@ -13,6 +13,5 @@ public class ObjectMovement : MonoBehaviour
         {
             singleObject.transform.position += new Vector3(-1 * objectSpeed, 0 , 0);
         }
-
     }
 }

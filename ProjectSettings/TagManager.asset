@@ -7,6 +7,7 @@ TagManager:
   - Icicle
   - Gap
   - Ground
+  - Manager
   layers:
   - Default
   - TransparentFX
