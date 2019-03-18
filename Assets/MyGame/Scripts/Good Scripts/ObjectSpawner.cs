@@ -14,7 +14,3 @@ public class ObjectSpawner : MonoBehaviour {
 		
 	}
 }
-
-//refs: https://stackoverflow.com/questions/11949463/how-to-get-size-of-parent-game-object
-// https://www.youtube.com/watch?v=zKG8gSrwbnQ
-// https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html
