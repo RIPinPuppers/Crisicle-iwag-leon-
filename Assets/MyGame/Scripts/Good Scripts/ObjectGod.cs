@@ -5,6 +5,7 @@ public class ObjectGod : MonoBehaviour
     [SerializeField] private GameObject ground;
     [SerializeField] private GameObject icicle;
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject gapObject;
     [SerializeField] private float gap = 2;
     [SerializeField] private float yOffsetGround, groundSize, yOffsetIcicle;
     [SerializeField] private ObjectMovement objectMovement;
@@ -27,6 +28,12 @@ public class ObjectGod : MonoBehaviour
             new Vector3(player.transform.position.x + groundSize / 2 + gap / 2, player.transform.position.y + yOffsetIcicle, 0),
             Quaternion.identity);
         objectMovement.MovingObjects.Add(tempIcicle);
+
+        GameObject tempGap = Instantiate(
+            gapObject,
+            new Vector3(player.transform.position.x + groundSize / 2 + gap / 2, player.transform.position.y - yOffsetGround, 0),
+            Quaternion.identity);
+        objectMovement.MovingObjects.Add(tempGap);
     }
 }
 
