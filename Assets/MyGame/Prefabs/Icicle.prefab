@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4321194446642606}
   - component: {fileID: 61011940064441618}
-  - component: {fileID: 50808036717120146}
   m_Layer: 0
   m_Name: Second
   m_TagString: Icicle
@@ -42,7 +41,7 @@ GameObject:
   - component: {fileID: 114753396386778188}
   m_Layer: 0
   m_Name: Icicle
-  m_TagString: Icicle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,26 +80,6 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1348172558596484}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!50 &50808036717120146
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1034290602473298}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
